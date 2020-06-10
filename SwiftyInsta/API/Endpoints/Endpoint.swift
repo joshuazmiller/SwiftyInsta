@@ -65,7 +65,7 @@ public struct Endpoint {
     /// An `enum` providing for `Direct` endpoints.
     enum Direct: EndpointPath, CaseIterable, RawEndpointRepresentable {
         /// Inbox.
-        case inbox = "https://i.instagram.com/direct/inbox/"
+        case inbox = "https://www.instagram.com/direct/inbox/"
         /// Send message.
         case text = "https://i.instagram.com/api/v1/direct_v2/threads/broadcast/text/"
         /// Thread with identifier.
@@ -73,7 +73,7 @@ public struct Endpoint {
         /// Recent recipients.
         case recentRecipients = "https://i.instagram.com/api/v1/direct_share/recent_recipients/"
         /// Ranked recipients.
-        case rankedRecipients = "https://i.instagram.com/direct_v2/ranked_recipients/"
+        case rankedRecipients = "https://www.instagram.com/direct_v2/ranked_recipients/"
     }
 
     /// An `enum` providing for `Discover` endpoints.
